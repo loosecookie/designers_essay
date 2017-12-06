@@ -33,3 +33,14 @@ In 1986, Steven Jobs the founder of Apple Computer Company offered Rand $100,000
 Teaching as a Professor at Yale University for the remainder of his life, Paul Rand’s love for design shone through even until the day he passed. He too designed a mark for the Cancer Centre of Norwalk Hospital where he received treatment himself until his death in 1966 at the age of 82. 
 
 Paul Rand’s career spanned over 6 decades; reaching the achievement of world famous corporate designs and numerous chapters of design history. Truly a master of design.
+
+### References
+- Steven Heller, 1999. Paul Rand. 1st edition New York: Phaidon Press Limited.
+- Paul Rand, 1993. Design Form and Chaos. 1st edition New Heaven and London: Yale University Press.
+- Paul Rand, 1985. A Designer's Art. 1st edition New Heaven and London: Yale University Press.
+
+- iconofgraphics, n.d., Paul Rand [ICONOFGRAPHICS], [online]. Available: http://www.iconofgraphics.com/Paul-Rand [04/12/2017].
+- Paul-Rand.com, n.d., Biography [Paul Rand], [online]. Available: http://www.paul-rand.com/foundation/biography/#.WiWzIrp2vg8 [04/12/2017].
+- famousgraphicdesigners.org, n.d., Paul Rand [Famous Graphic Designers], [online]. Available: http://www.famousgraphicdesigners.org/paul-rand [04/12/2017].
+- logodesignlove.com, n.d., All About Paul Rand [Logo Design Love], [online]. Available: https://www.logodesignlove.com/all-about-paul-rand [04/12/2017].
+
