@@ -1,0 +1,172 @@
+/*------------------- CSS RESET -----------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size; 100%;
+    line-height: 1em;
+}
+
+header {
+    margin: 6em 0} /*--- page margin, works clockwise ---*/
+
+header h2 {
+    font-style: italic;
+    font-size: 1.9em;
+    color: #333;
+}
+
+body {
+    width: 75%;
+    max-width: 600px;
+    font-family: 'Libre Baskerville', serif;
+    margin: auto; /*--- centered on screen ---*/
+    background: #f0f0f0; /*--- off white for easier reading ---*/
+    color: #333; 
+    line-height: 1.8em;
+}
+
+/*------------------ TYPOGRAPHY ------------------------*/
+
+h1, h2, h3 {
+    font-weight: normal; /*--- rather than bold font ---*/
+    color: #c06;
+    text-align: center;
+}
+
+p, li, blockquote {
+    margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
+    line-height: 1.5; /*--- spacing between lines ---*/
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 1em;
+    margin-bottom: 0.1em; /*--- spacing at top of page ---*/
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+blockquote {
+    padding: 1em 0 2em 0;
+    font-size: 1.75em;
+    line-height: 1.4em;
+    color: #777;
+    hanging-punctuation: first;
+    text-indent: -0.5em;
+}
+
+blockquote cite {
+    font-size: 0.6em;
+}
+
+.kern { letter-spacing: -5px}
+
+/*------------------- LINKS ----------------------------
+
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c06;
+    border-bottom: 1px dotted;
+}
+
+/*------------------ NAVIGATION -------------------------*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1em 0;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a:link {
+    color: #fff
+}
+
+nav a:visited {
+    color: #fff;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #c06
+}
+
+/*--------------------- IMAGES ----------------------*/
+
+img {
+    display: block;
+    margin: 4em auto;
+    padding: 0;
+    max-width: 100%
+}
+
+/*--------------------- FOOTER -----------------------*/
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+
+footer+small {
+    text-align: left;
+}
+
+footer hr {
+    margin-bottom: 3em;
+}
+
+/*--------------------- TABLE ----------------------
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+}
+
+caption {
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+th {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #c06;
+}
+
+th, td {
+    padding: 0.6em;
+}
+
+table, td {
+    background: #BFBEBB;
+    border: 1px solid #fff;
+}
