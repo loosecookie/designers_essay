@@ -20,11 +20,10 @@ body {
     width: 75%;
     max-width: 600px;
     font-family: 'Libre Baskerville', serif;
-    margin: auto; /*--- centered on screen ---*/
+    margin:auto;
     background: #f0f0f0; /*--- off white for easier reading ---*/
     color: #333; 
     line-height: 1.8em;
-    height: 100%;
 }
 
 /*------------------ TYPOGRAPHY ------------------------*/
@@ -66,7 +65,7 @@ blockquote cite {
 
 .kern { letter-spacing: -5px}
 
-/*------------------- LINKS ----------------------------
+/*------------------- LINKS ----------------------------*/
 
 a {
     color: #777;
@@ -87,7 +86,7 @@ nav {
     margin: 0;
     width: 100%;
     background-color: #2476bd;
-    padding: 2em 0;
+    padding: 1.7em 0;
 }
 
 nav ul {
@@ -122,11 +121,7 @@ img {
 }
 
 .headerimage {
-    background-image: url("headerimage.png");
-    height: 100%; 
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 /*--------------------- FOOTER -----------------------*/
