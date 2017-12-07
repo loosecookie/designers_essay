@@ -66,9 +66,11 @@ cite {
 
 a {
     color: #2476bd;
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     -webkit-transition: all 0.15s ease-in;
     transition: all 0.15s ease-in;
+    margin-left: 3em;
 }
 
 a:hover {
@@ -84,7 +86,7 @@ nav {
     margin: 0;
     width: 100%;
     background-color: #2476bd;
-    padding: 1.7em 0;
+    padding: 1.6em 0;
 }
 
 nav ul {
@@ -97,7 +99,6 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 30px;
 }
 
 nav a:link {
@@ -211,6 +212,66 @@ img {
     margin-bottom: 1em;
 }
 
+#apparelartsimg {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+#apparelartsimg li {
+    display: inline-block;
+    margin: 1em 1em 1em 0;
+}
+
+#directionimg {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+#directionimg li {
+    display: inline-block;
+    margin: 1em 1em 1em 0;
+}
+
+#weintraubimg {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+#weintraubimg li {
+    display: inline-block;
+    margin: 1em 1em 1em 0;
+}
+
+#ibmimg {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+#ibmimg li {
+    display: inline-block;
+    margin: 1em 1em 1em 0;
+}
+
+#ibmimg2 {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+#ibmimg2 li {
+    display: inline-block;
+    margin: 1em 1em 1em 0;
+}
+
+#nextimg {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+#nextimg li {
+    display: inline-block;
+    margin: 1em 1em 1em 0;
+}
+
 /*--------------------- FOOTER -----------------------*/
 
 footer {
@@ -229,36 +290,4 @@ footer+small {
 
 footer hr {
     margin-bottom: 3em;
-}
-
-/*--------------------- TABLE ----------------------
-
-table {
-    margin: auto;
-    display: table;
-    border-collapse: collapse;
-    border-spacing: 2px;
-    margin-bottom: 2em;
-}
-
-caption {
-    margin-bottom: 1.5em;
-    text-transform: uppercase;
-}
-
-th {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: normal;
-    text-align: left;
-    background: #c06;
-}
-
-th, td {
-    padding: 0.6em;
-}
-
-table, td {
-    background: #BFBEBB;
-    border: 1px solid #fff;
 }
