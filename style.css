@@ -7,42 +7,32 @@
     line-height: 1em;
 }
 
-header {
-    margin: 6em 0} /*--- page margin, works clockwise ---*/
-
-header h2 {
-    font-style: italic;
-    font-size: 1.9em;
-    color: #333;
-}
-
 body {
-    width: 75%;
-    max-width: 600px;
+    width: 100%;
     font-family: 'Libre Baskerville', serif;
-    margin:auto;
-    background: #f0f0f0; /*--- off white for easier reading ---*/
-    color: #333; 
+    margin: auto;
+    background-color: #f0f0f0;
+    color: #333;
     line-height: 1.8em;
 }
 
+header {
+    margin: 5.7em 0} /*--- page margin, works clockwise ---*/
+
+
 /*------------------ TYPOGRAPHY ------------------------*/
+
+p {
+    width: 75%;
+    max-width: 700px;
+    margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
+}
 
 h1, h2, h3 {
     font-weight: normal; /*--- rather than bold font ---*/
-    color: #c06;
+    color: #2476bd;
     text-align: center;
-}
-
-p, li, blockquote {
-    margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
-    line-height: 1.5; /*--- spacing between lines ---*/
-}
-
-h1 {
-    font-size: 4em;
-    margin-top: 1em;
-    margin-bottom: 0.1em; /*--- spacing at top of page ---*/
+    text-transform: uppercase;
 }
 
 h2 {
@@ -50,31 +40,41 @@ h2 {
     margin-bottom: 1em;
 }
 
+p {
+    font-size: 120%;
+    line-height: 1.5em;
+}
+
 blockquote {
-    padding: 1em 0 2em 0;
-    font-size: 1.75em;
-    line-height: 1.4em;
+    padding: 0.5em 0 0 0;
+    font-size: 2em;
+    line-height: 1.5em;
     color: #777;
     hanging-punctuation: first;
     text-indent: -0.5em;
+    text-align: center;
 }
 
-blockquote cite {
-    font-size: 0.6em;
+/*--- fix cite ---*/
+cite {
+    font-size: 100%;
+    padding: 2em;
+    margin-left: 3em;
+    text-align: center;
+    margin-bottom: 1.5em;
 }
-
-.kern { letter-spacing: -5px}
 
 /*------------------- LINKS ----------------------------*/
 
 a {
-    color: #777;
+    color: #2476bd;
     text-decoration: none;
+    -webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
 }
 
 a:hover {
-    color: #c06;
-    border-bottom: 1px dotted;
+    color: #fab515;
 }
 
 /*------------------ NAVIGATION -------------------------*/
@@ -91,17 +91,19 @@ nav {
 
 nav ul {
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 130%;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 nav ul li {
     display: inline;
-    margin: 20px;
+    margin: 30px;
 }
 
 nav a:link {
-    color: #
+    color: #fff
 }
 
 nav a:visited {
@@ -109,7 +111,14 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: #c06
+    color: #fab515
+}
+
+/*-------------------- SECTIONS ----------------------*/
+
+p {
+    margin: 0 14.2em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 /*--------------------- IMAGES ----------------------*/
@@ -118,10 +127,6 @@ img {
     display: block;
     padding: 0;
     max-width: 100%
-}
-
-.headerimage {
-    
 }
 
 /*--------------------- FOOTER -----------------------*/
