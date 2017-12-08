@@ -142,25 +142,50 @@ p {
     color: #f0f0f0;
 }
 
-.para59 {
-    background: #2476bd;
-    background-size: 100%;
-    color: #f0f0f0;
-    margin-bottom: 0em;
-}
-
-.para61 {
-    background: #fab515;
-    background-size: 100%;
-    margin-bottom: 0em;
-    color: #f0f0f0;
-}
-
-.para62 {
-    background: #e41383;
-    background-size: 100%;
+#border {
+    margin-top: 1em;
     margin-bottom: 1em;
-    color: #f0f0f0;
+    width: 77%;
+    border-bottom: 20px solid #2476bd;
+}
+
+#border2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 17em;
+    width: 100%;
+    border-bottom: 20px solid #fab515;
+}
+
+#border3 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    width: 77%;
+    border-bottom: 20px solid #e41383;
+}
+
+#date {
+    margin: 0 0 0 1em;
+    float: left;
+    font-size: 6em;
+    color: #2476bd;
+    max-width: 12%;
+}
+
+#date2 {
+    margin: 0 1em 0 0;
+    float: right;
+    font-size: 6em;
+    color: #fab515;
+    max-width:12%;
+}
+
+#date3 {
+    margin: 0 0 0 1em;
+    float: left;
+    font-size: 6em;
+    color: #e41383;
+    max-width: 12%;
 }
 
 .bq4 {
@@ -209,7 +234,9 @@ img {
     display: block;
     padding: 0;
     max-width: 100%;
-    margin-bottom: 1em;
+    margin:auto;
+    margin-bottom: 2em;
+    text-align: center;
 }
 
 #apparelartsimg {
@@ -242,16 +269,6 @@ img {
     margin: 1em 1em 1em 0;
 }
 
-#ibmimg {
-    list-style: none;
-    margin: auto;
-    text-align: center;
-}
-#ibmimg li {
-    display: inline-block;
-    margin: 1em 1em 1em 0;
-}
-
 #ibmimg2 {
     list-style: none;
     margin: auto;
@@ -272,6 +289,30 @@ img {
     margin: 1em 1em 1em 0;
 }
 
+#childsbook {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+#childsbook li {
+    display: inline-block;
+    margin: 1em 1em 1em 0;
+}
+
+#westinghouse {
+    float: right;
+    margin-right: 8em;
+}
+
+#ups {
+    float: left;
+    margin-left: 7em;
+}
+
+#abc {
+    float: right;
+    margin-right: 5em;
+}
 /*--------------------- FOOTER -----------------------*/
 
 footer {
