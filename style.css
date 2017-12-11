@@ -62,6 +62,15 @@ cite {
     margin-left: 20em;
 }
 
+.caption {
+    font-size: 90%;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    border-top: 5px solid #2476bd;
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
 /*------------------- LINKS ----------------------------*/
 
 a {
