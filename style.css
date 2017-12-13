@@ -7,6 +7,9 @@
     line-height: 1em;
 }
 
+header {
+    margin: 5.7em 0} /*--- page margin, works clockwise ---*/
+
 body {
     width: 100%;
     font-family: 'Libre Baskerville', serif;
@@ -16,17 +19,7 @@ body {
     line-height: 1.8em;
 }
 
-header {
-    margin: 5.7em 0} /*--- page margin, works clockwise ---*/
-
-
 /*------------------ TYPOGRAPHY ------------------------*/
-
-p {
-    width: 75%;
-    max-width: 700px;
-    margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
-}
 
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
@@ -36,33 +29,35 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+p {
+    font-size: 120%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0 14em;
+    line-height: 1.5em; /*--- spacing between each line ---*/
+    margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
+}
+
 h2 {
     font-size: 2.5em;
     margin-bottom: 1em;
-}
-
-p {
-    font-size: 120%;
-    line-height: 1.5em;
 }
 
 blockquote {
     padding: 1.2em 0 0 0;
     font-size: 2em;
     line-height: 1em;
-    color: #777;
+    color: #fff;
     hanging-punctuation: first;
     text-indent: -0.5em;
     text-align: center;
+    margin-bottom: 1em;
 }
 
-cite {
+blockquote cite {
     font-size: 65%;
-    padding: 2em;
-    margin-left: 20em;
 }
 
-.caption {
+.caption { /*---- won't allow border-top using <caption> -----*/
     font-size: 90%;
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
@@ -77,8 +72,7 @@ a {
     color: #2476bd;
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
-    -webkit-transition: all 0.15s ease-in;
-    transition: all 0.15s ease-in;
+    -webkit-transition: all 0.15s ease-in; /*--- transition on hover ---*/
     margin-left: 3em;
 }
 
@@ -89,8 +83,8 @@ a:hover {
 /*------------------ NAVIGATION -------------------------*/
 
 nav {
-    position:absolute;
-    top: 0;
+    position: absolute; /*--- stays at top of page ---*/
+    top: 0; /*--- placement on page ---*/
     left: 0;
     margin: 0;
     width: 100%;
@@ -108,6 +102,7 @@ nav ul {
 
 nav ul li {
     display: inline;
+    margin: 0px;
 }
 
 nav a:link {
@@ -124,37 +119,16 @@ nav a:hover {
 
 /*-------------------- SECTIONS ----------------------*/
 
-p {
-    margin: 0 14.2em;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    margin-bottom: 1.5em;
-}
+.bq1 {background: #fab515;}
 
-.bq1 {
-    background: #fab515;
-    background-size: 100%;
-    margin-bottom: 1em;
-    color: #f0f0f0;
-}
+.bq2 {background: #e41383;}
 
-.bq2 {
-    background: #e41383;
-    background-size: 100%;
-    margin-bottom: 1em;
-    color: #f0f0f0;
-}
-
-.bq3 {
-    background: #0f6d3d;
-    background-size: 100%;
-    margin-bottom: 1em;
-    color: #f0f0f0;
-}
+.bq3 {background: #0f6d3d;}
 
 #border {
     margin-top: 1em;
     margin-bottom: 1em;
-    width: 77%;
+    width: 77%; /*--- wont work with margin-right???---*/
     border-bottom: 20px solid #2476bd;
 }
 
@@ -178,7 +152,6 @@ p {
     float: left;
     font-size: 6em;
     color: #2476bd;
-    max-width: 12%;
 }
 
 #date2 {
@@ -186,7 +159,6 @@ p {
     float: right;
     font-size: 6em;
     color: #fab515;
-    max-width:12%;
 }
 
 #date3 {
@@ -194,20 +166,12 @@ p {
     float: left;
     font-size: 6em;
     color: #e41383;
-    max-width: 12%;
 }
 
-.bq4 {
-    background: #d42027;
-    background-size: 100%;
-    margin-bottom: 1em;
-    color: #f0f0f0;
-}
+.bq4 {background: #d42027;}
 
-.conclusion {
+.conclusion { /*--- styled as a blockquote----*/
     background: #2476bd;
-    background-size: 100%;
-    color: #f0f0f0;
     padding: 2em;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 1.3em;
@@ -216,13 +180,11 @@ p {
 /*------------------ REFERENCES --------------------*/
 
 table {
-    max-width: 900px;
     margin: auto;
     display: table;
-    border-collapse: collapse;
+    border-collapse: collapse; /*---- no white divider ---*/
     border-spacing: 2px;
     margin-bottom: 1em;
-    list-style: none;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -245,7 +207,6 @@ img {
     max-width: 100%;
     margin:auto;
     margin-bottom: 2em;
-    text-align: center;
 }
 
 #apparelartsimg {
@@ -322,22 +283,99 @@ img {
     float: right;
     margin-right: 5em;
 }
+
 /*--------------------- FOOTER -----------------------*/
 
 footer {
-    background: #2476bd;
-    background-size: 100%;
+    background: #f0f0f0;
     text-align: center;
-    color: #f0f0f0;
     font-size: 0.75em;
     line-height: 1.5em;
     padding-bottom: 2em;
 }
 
-footer+small {
-    text-align: left;
+.social {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    opacity:0.7;
+    -webkit-transition: all 0.15s ease-in;
+}
+.social li {
+    display: inline-block;
+    margin: 1em 1em 1em 0;
 }
 
-footer hr {
-    margin-bottom: 3em;
+.social:hover { /*---------- NOT WORKING ----------*/
+    opacity: 1;
 }
+
+/*------------------ MEDIA QUERIES -------------------*/
+
+/*------ tablet ---------*/
+
+@media (max-width: 50em) {
+
+    p {margin-left: 5em;
+        width: 75%}
+    
+    header h1 {font-size: 5em;}
+    
+    #ups {
+        float: right;
+        margin-left: 1em;
+        margin-right: 7em;
+        width: 20%;}
+}
+
+/*----------- SMARTPHONE ----------- */
+
+ @media (max-width: 35em) {
+
+   body {
+    margin: auto 0;
+    width: 100%;
+    font-size: 70%; 
+    }
+    
+     p {margin-left:1em;
+        width: 90%;}
+
+    nav ul li {
+        display: grid;
+        margin: 0px; }
+
+     table {font-size: 90%}
+
+     h1 {font-size: 3em;
+        line-height: 1.3}   
+
+     blockquote { font-size: 1.25em;
+        padding: 0;
+        line-height: 1.6em}  
+     
+     #westinghouse {
+        float: right;
+        margin-right: 1em;
+        width: 30%;}
+
+     #ups {
+        float: right;
+         margin-left: 1em;
+        margin-right: 3em;
+        width: 20%;}
+
+     #abc {
+        float: right;
+         margin:0em;
+        margin-right: 0em;
+        width: 40%}
+     
+     #date2 {
+        margin: 0 0 0 1em;
+        float: left;}
+     
+     #border2 {
+        margin-left: 7em;}
+}
+     
