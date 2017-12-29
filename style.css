@@ -30,21 +30,21 @@ h1, h2, h3 {
 }
 
 p {
-    font-size: 120%;
+    font-size: 1em;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    margin: 0 14em;
+    margin: 0 17.2em;
     line-height: 1.5em; /*--- spacing between each line ---*/
     margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2.827em;
     margin-bottom: 1em;
 }
 
 blockquote {
     padding: 1.2em 0 0 0;
-    font-size: 2em;
+    font-size: 1.999em;
     line-height: 1em;
     color: #fff;
     hanging-punctuation: first;
